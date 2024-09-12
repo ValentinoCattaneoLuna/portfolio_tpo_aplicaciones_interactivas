@@ -74,8 +74,12 @@
         <div class="section-title">
           <h2>Sobre mí</h2>
           <h3>Conoce mas <span>sobre mi</span></h3>
-          <p>Me llamo Valentino tengo <span class="miEdad"></span>  años, siempre fui un apasionado de la tecnologia y actualmente estoy estudiando
-            la Tec. Universitaria en Desarrollo de Software en UADE</p>
+          <div class="fotoValentino">
+            <img src="/assets/img/valentinoCattaneoLuna.jpeg" alt="">
+          </div>
+
+          <p>Me llamo Valentino tengo <span class="miEdad"></span> años. Siempre fui un gran apasionado de la tecnología
+            y actualmente estoy estudiando la Tec. Universitaria en Desarrollo de Software en UADE.</p>
         </div>
 
         <div class="row content">
@@ -85,6 +89,7 @@
               dolore
               magna aliqua.
             </p>
+
             <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
@@ -194,8 +199,8 @@
 
         <div class="section-title">
           <h2>Proyectos</h2>
-          <h3>Estos son mis <span>Proyectos</span></h3>
-          <p>Aca podes ver los proyectos en los que estuve trabajando y practicando para mejorar mis habilidades.</p>
+          <h3>Estos son mis <span>Proyectos</span>.</h3>
+          <p>Aca podes ver los proyectos en los que he estado trabajando y practicando para mejorar mis habilidades.</p>
         </div>
 
         <div class="row">
@@ -215,8 +220,9 @@
             <div class="portfolio-info">
               <h4>Calculadora web</h4>
               <p>Proyecto de practica sobre JS y DOM</p>
-             
-              <a href="https://valentinocattaneoluna.github.io/calculadora-simple/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+
+              <a href="https://valentinocattaneoluna.github.io/calculadora-simple/" target="_blank" class="details-link"
+                title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -225,18 +231,20 @@
             <div class="portfolio-info">
               <h4>Menu virtual de un restaurante</h4>
               <p>Trabajo en proceso para un cliente de Pinamar</p>
-             
-              <a onclick="alert('La pagina actualmente no esta terminada')" href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+
+              <a onclick="alert('La pagina actualmente no esta terminada')" href="#" class="details-link"
+                title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-proyecto">
             <img src="assets/img/portfolio/MockUp_reproductorDeMusica.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Reproductor de musica web</h4>
               <p>Proyecto de practica sobre JS y DOM</p>
-             
-              <a href="https://valentinocattaneoluna.github.io/reproductor-de-musica/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+
+              <a href="https://valentinocattaneoluna.github.io/reproductor-de-musica/" target="_blank"
+                class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -245,8 +253,9 @@
             <div class="portfolio-info">
               <h4>Contador de numeros primos</h4>
               <p>Proyecto de practica sobre JS y DOM</p>
-             
-              <a href="https://valentinocattaneoluna.github.io/contador_numeros_primos/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+
+              <a href="https://valentinocattaneoluna.github.io/contador_numeros_primos/" target="_blank"
+                class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -364,7 +373,7 @@
           <p>Para cualquier consulta podes rellenar el siguiente formulario de contacto.</p>
         </div>
 
- 
+
         <div class="row mt-5">
 
           <div class="col-lg-4">
@@ -393,7 +402,8 @@
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo electronico" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo electronico"
+                    required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -503,8 +513,8 @@
 
   <script>
     const spanEdad = document.querySelector('.miEdad');
-    const edad = (new Date() - new Date('July 1,2004')) / (1000*60*60*24*365.25);
-    spanEdad.textContent =Math.floor(edad);
+    const edad = (new Date() - new Date('July 1,2004')) / (1000 * 60 * 60 * 24 * 365.25);
+    spanEdad.textContent = Math.floor(edad);
   </script>
 
 </body>
