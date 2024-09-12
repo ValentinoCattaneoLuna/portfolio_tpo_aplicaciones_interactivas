@@ -391,7 +391,7 @@ h6 {
 }
 
 #hero h3 {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.25);
   color: #fff;
   font-size: 26px;
   padding: 10px 30px;
@@ -502,6 +502,17 @@ section {
 .section-title h3 span {
   color: #e43c5c;
 }
+
+.fotoValentino{
+  box-shadow: inset 10px red;
+}
+.fotoValentino img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  
+}
+
 
 .section-title p {
   margin: 15px auto 0 auto;
