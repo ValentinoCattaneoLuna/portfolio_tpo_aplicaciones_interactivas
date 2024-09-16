@@ -499,7 +499,7 @@ section {
   font-weight: 700;
 }
 
-.section-title h3 span {
+.section-title h3 span, .section-title p span {
   color: #e43c5c;
 }
 
